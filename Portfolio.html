@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Subrat Pradhan Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9fb;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    section h2 {
+      border-bottom: 3px solid #f97316;
+      display: inline-block;
+      padding-bottom: 0.25rem;
+      margin-bottom: 1.5rem;
+    }
+    #social-icons {
+      position: fixed;
+      top: 50%;
+      left: 1rem;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      z-index: 1000;
+    }
+    #social-icons a {
+      width: 40px;
+      height: 40px;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 9999px;
+      color: white;
+      transition: color 0.3s;
+    }
+    #social-icons a:hover {
+      filter: brightness(0.8);
+    }
+  </style>
+</head>
+<body class="text-gray-900">
+
+  <!-- Social Icons Left -->
+  <div id="social-icons" aria-label="Social media links">
+    <a aria-label="LinkedIn" href="https://www.linkedin.com/in/subrat-pradhan-543728362" target="_blank" style="color:#0a66c2;">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a aria-label="GitHub" href="https://github.com/Subrat398" target="_blank" style="color:#6e5494;">
+      <i class="fab fa-github"></i>
+    </a>
+    <a aria-label="Instagram" href="https://www.instagram.com/subrat_pradhann" target="_blank" style="color:#e4405f;">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a aria-label="DEV Community" href="#" target="_blank" style="color:#0a0a0a;">
+      <i class="fab fa-dev"></i>
+    </a>
+  </div>
+
+  <!-- Header -->
+  <header class="border-b border-gray-200 sticky top-0 bg-white z-50">
+    <nav
+      class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 flex items-center justify-between h-16"
+      aria-label="Primary Navigation"
+    >
+      <div class="flex items-center space-x-2">
+        <img
+          src="https://storage.googleapis.com/a1aa/image/194e67d8-2047-46f6-25f1-7adf78504d76.jpg"
+          alt="Subrat Pradhan logo"
+          class="w-6 h-6"
+          width="24"
+          height="24"
+        />
+        <span class="font-semibold text-xl text-black select-none">
+          Subrat Pradhan
+        </span>
+      </div>
+      <ul class="hidden md:flex space-x-8 text-sm font-semibold text-gray-900">
+        <li><a href="#home" class="text-[#2a3ad9] border-b-2 border-[#2a3ad9] pb-1">Home</a></li>
+        <li><a href="#about" class="hover:text-gray-700">About</a></li>
+        <li><a href="#skills" class="hover:text-gray-700">Skills</a></li>
+        <li><a href="#education" class="hover:text-gray-700">Education</a></li>
+        <li><a href="#work" class="hover:text-gray-700">Work</a></li>
+        <li><a href="#experience" class="hover:text-gray-700">Experience</a></li>
+        <li><a href="#contact" class="hover:text-gray-700">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <main
+    id="home"
+    class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 mt-12 flex flex-col md:flex-row items-center md:items-start justify-between relative"
+  >
+    <img
+      src="https://storage.googleapis.com/a1aa/image/26f0780a-73b1-4e88-5f7f-2e90c83cf72e.jpg"
+      alt="Background network lines"
+      class="absolute top-0 left-0 w-full h-full object-cover pointer-events-none select-none -z-10 opacity-15"
+      width="600"
+      height="400"
+      style="opacity: 0.15"
+    />
+    <section class="max-w-xl w-full">
+      <h1
+        class="text-4xl sm:text-5xl font-extrabold text-[#0f172a] leading-tight mb-2"
+      >
+        Hi There,
+      </h1>
+      <h2
+        class="text-4xl sm:text-5xl font-extrabold text-[#0f172a] leading-tight mb-2"
+      >
+        I'm Subrat
+        <span class="text-[#f97316]"> Pradhan</span>
+      </h2>
+      <p class="text-lg font-semibold text-[#5f0f0f] mb-6">
+        I am a
+        <span class="text-[#8b0000] font-bold">Software Tester & AI/ML Enthusiast</span>
+        passionate about quality and coding.
+      </p>
+      <a
+        href="#about"
+        class="inline-flex items-center space-x-2 bg-[#1e1e8f] hover:bg-[#2a3ad9] text-white font-semibold text-sm rounded-full px-6 py-2 shadow-lg transition"
+      >
+        <span>About Me</span>
+        <i class="fas fa-arrow-down"></i>
+      </a>
+    </section>
+    <section class="mt-12 md:mt-0 md:ml-12 flex-shrink-0">
+      <img
+        src="https://storage.googleapis.com/a1aa/image/29cffed4-0458-4c87-7402-e38a98cd1215.jpg"
+        alt="Avatar of Subrat Pradhan"
+        class="w-72 h-72 rounded-full object-cover"
+        width="300"
+        height="300"
+      />
+    </section>
+  </main>
+
+  <!-- About Section -->
+  <section
+    id="about"
+    class="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 mt-24 mb-16"
+  >
+    <h2 class="text-3xl font-extrabold text-[#f97316] mb-6">About Me</h2>
+    <p class="text-lg leading-relaxed text-gray-800">
+      I am Subrat Pradhan, currently pursuing my Master's in Computer Applications (MCA) at Centurion University. I am deeply passionate about
+      software testing and AI/ML development. I have a strong foundation in
+      programming languages such as Java, Python, and C, along with expertise in
+      data structures and MySQL databases.
+      <br /><br />
+      I believe in writing clean, efficient code and thorough testing to deliver
+      reliable software. My projects include building smart library management
+      systems, machine learning models for healthcare, and network security
+      simulations.
+      <br /><br />
+      As a quick learner and a collaborative team player, I am always eager to
+      embrace new challenges that help me grow professionally and personally.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section
+    id="skills"
+    class="bg-white py-16 border-t border-gray-200"
+  >
+    <div class="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
+      <h2 class="text-3xl font-extrabold text-[#f97316] mb-8">Skills & Technologies</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center text-gray-700">
+        <div class="bg-[#fee2e2] rounded-lg py-3 font-semibold shadow">Java</div>
+        <div class="bg-[#fee2e2] rounded-lg py-3 font-semibold shadow">Python</div>
+        <div class="bg-[#fee2e2] rounded-lg py-3 font-semibold shadow">C</div>
+        <div class="bg-[#fee2e2] rounded-lg py-3 font-semibold shadow">MySQL</div>
+        <div class="bg-[#fee2e2] rounded-lg py-3 font-semibold shadow">Data Structures</div>
+        <div class="bg-[#fee2e2] rounded-lg py-3 font-semibold shadow">Machine Learning</div>
+        <div class="bg-[#fee2e2] rounded-lg py-3 font-semibold shadow">Java Swing</div>
+        <div class="bg-[#fee2e2] rounded-lg py-3 font-semibold shadow">JDBC</div>
+        <div class="bg-[#fee2e2] rounded-lg py-3 font-semibold shadow">Network Security</div>
+        <div class="bg-[#fee2e2] rounded-lg py-3 font-semibold shadow">Cisco Packet Tracer</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section
+    id="education"
+    class="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 mt-16 mb-16"
+  >
+    <h2 class="text-3xl font-extrabold text-[#f97316] mb-8">Education</h2>
+    <ul class="space-y-6 text-gray-800">
+      <li>
+        <h3 class="font-semibold text-xl">Master of Computer Applications (MCA)</h3>
+        <p>Centurion University, Odisha</p>
+        <p class="italic">2024 - Present</p>
+      </li>
+      <li>
+        <h3 class="font-semibold text-xl">Bachelor of computer apllication (BCA)</h3>
+        <p>Bhadrak autonomous College, Odisha</p>
+        <p class="italic">2021 - 2024</p>
+      </li>
+      <li>
+        <h3 class="font-semibold text-xl">Higher Secondary Education</h3>
+        <p>Science Stream, Bidwan Residential College</p>
+        <p class="italic">2019 - 2021</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Work/Projects Section -->
+  <section
+    id="work"
+    class="bg-white py-16 border-t border-gray-200"
+  >
+    <div class="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
+      <h2 class="text-3xl font-extrabold text-[#f97316] mb-8">Projects & Work Experience</h2>
+      <article class="mb-12">
+        <h3 class="text-2xl font-semibold text-gray-900 mb-2">
+          Smart Library Management System
+        </h3>
+        <p class="text-gray-700">
+          Developed a Java Swing and JDBC based library management application integrated with MySQL to manage book lending, returns, and member records efficiently.
+        </p>
+      </article>
+      <article class="mb-12">
+        <h3 class="text-2xl font-semibold text-gray-900 mb-2">
+          Breast Cancer Detection System (Machine Learning)
+        </h3>
+        <p class="text-gray-700">
+          Built a Python-based ML system to detect breast cancer from medical data using multiple classification algorithms and data visualization techniques.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section
+    id="contact"
+    class="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 mt-16 mb-20"
+  >
+    <h2 class="text-3xl font-extrabold text-[#f97316] mb-8">Contact Me</h2>
+    <p class="text-lg font-semibold text-gray-900 mb-4">
+      Email: 
+      <a href="mailto:subratpradhan485@gmail.com" class="text-[#2a3ad9] hover:underline">
+        subratpradhan485@gmail.com
+      </a>
+    </p>
+    <p class="text-lg font-semibold text-gray-900">
+      Phone: 
+      <a href="tel:+917735335402" class="text-[#2a3ad9] hover:underline">
+        +91 7735335402
+      </a>
+    </p>
+  </section>
+
+</body>
+</html>
